@@ -1,0 +1,1 @@
+{"name":"Local: 3_9_G","url":"c:\\_Vatsh\\_Blossom\\TLE\\Week 2\\PROBLEMS\\3_9_G.cpp","tests":[{"id":1713795791474,"input":"3\n4\n1 2 3 4\n4\n1 1 1 1\n3\n1 2 3","output":"0\n2\n-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\_Vatsh\\_Blossom\\TLE\\Week 2\\PROBLEMS\\3_9_G.cpp","group":"local","local":true}
