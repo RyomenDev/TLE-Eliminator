@@ -11,19 +11,31 @@ using namespace std;
 int solve(string s)
 {
 
-    string result;
-    for (int i = 0; i < s.size(); ++i)
+    // for (int i = 0; i < s.size(); i++)
+    // {
+    //     string temp = s.substr(i, 2);
+    //     if (temp == "AB" || temp == "BB")
+    //     {
+    //         cout << i << " " << temp << " " << s << endl;
+    //         s.erase(i, 2);
+    //         i = -1;
+    //     }
+    // }
+    // return s.size();
+    stack<char> st;
+    for (int i = 0; i < s.size(); i++)
     {
-        if (i < s.size() - 1 && (s[i] == 'A' && s[i + 1] == 'B' || s[i] == 'B' && s[i + 1] == 'B'))
-        {
-            ++i;
-        }
+        if (st.empty())
+            st.push(s[i]);
         else
         {
-            result += s[i];
+            if (s[i] == 'B')
+                st.pop();
+            else
+                st.push(s[i]);
         }
     }
-    return result.size();
+    return st.size();
 }
 
 void Vatsh()
