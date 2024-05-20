@@ -6,7 +6,7 @@ class Solution {
     bool solve(int num, vector<int>& v, int d) {
         for (auto i : v) {
             if (abs(i - num) <= d)
-                return 0;
+                return 0; 
         }
         return 1;
     }

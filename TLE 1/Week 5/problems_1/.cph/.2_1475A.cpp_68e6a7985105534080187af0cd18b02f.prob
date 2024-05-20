@@ -1,0 +1,1 @@
+{"name":"Local: 2_1475A","url":"c:\\_Vatsh\\_Blossom\\TLE\\TLE 1\\Week 5\\problems_1\\2_1475A.cpp","tests":[{"id":1716207376807,"input":"6\n2\n3\n4\n5\n998244353\n1099511627776\n","output":"NO\nYES\nNO\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\_Vatsh\\_Blossom\\TLE\\TLE 1\\Week 5\\problems_1\\2_1475A.cpp","group":"local","local":true}

@@ -8,8 +8,31 @@ using namespace std;
 #define endl "\n"
 #define mod 1000000007 // 1e9
 
-int solve()
+// vector<pair<int, int>> factors
+// {
+// }
+
+int solve(int n)
 {
+    // vector<pair<int, int>> fact;
+    int moves = 0;
+    while (n != 1)
+    {
+        if (n % 6 == 0)
+        {
+            n /= 6;
+        }
+        else if (n % 3 == 0)
+        {
+            n *= 2;
+        }
+        else
+        {
+            return -1;
+        }
+        moves++;
+    }
+    return moves;
 }
 
 void Vatsh()
@@ -17,10 +40,7 @@ void Vatsh()
     // Your logic goes here
     int n;
     cin >> n;
-    vector<int> v(n);
-    for (int i = 0; i < n; i++)
-        cin >> v[i];
-    cout << solve() << endl;
+    cout << solve(n) << endl;
 }
 
 int32_t main()
