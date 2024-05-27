@@ -11,19 +11,21 @@ using namespace std;
 vector<int> solve(int n)
 { // 4 6 8 10 12 14 16 18 20 22 24 26
     if (n % 2 || n < 4)
-    {
         return {-1, -1};
-    }
+
     int mIN = 0, mAX = 0;
-    if (n % 4 == 0)
-        mAX = n / 4;
-    else
-        mAX = n / 4 - 1;
 
     if (n % 6 == 0)
         mIN = n / 6;
+    if (n % 6 == 2)
+        mIN = (n - 8) / 6 + 2;
+    if (n % 6 == 4)
+        mIN = (n - 4) / 6 + 1;
+
+    if (n % 4 == 0)
+        mAX = n / 4;
     else
-        mIN = n / 6 + 1;
+        mAX = (n - 6) / 4 + 1;
 
     return {mIN, mAX};
 }

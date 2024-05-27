@@ -1,5 +1,5 @@
-// https://codeforces.com/problemset/problem/1165/D
-// D. Almost All Divisors
+// https://codeforces.com/problemset/problem/1474/B
+// B. Different Divisors
 
 // https://oeis.org/ To find the PATTERN
 #include <bits/stdc++.h>
@@ -37,9 +37,19 @@ typedef set<int> oseti;
 #define pb emplace_back
 #define all(x) x.begin(), x.end()
 #define sortall(x) sort(all(x))
-#define fori(i, n) for (int i = 0; i < n; i++)
-#define forj(j, n) for (int j = 0; j < n; j++)
-#define fork(k, n) for (int k = 0; k < n; k++)
+// Macro Definition:
+// #define fori(i, n) for (int i = 0; i < n; i++)
+#define fori(start, end) \
+    int nn = (end);      \
+    for (int i = (start); i < nn; i++)
+// #define forj(j, n) for (int j = 0; j < n; j++)
+#define forj(start, end) \
+    int nn = (end);      \
+    for (int j = (start); j < nn; j++)
+// #define fork(k, n) for (int k = 0; k < n; k++)
+#define fork(start, end) \
+    int nn = (end);      \
+    for (int k = (start); k < nn; k++)
 //----------------------- functions--------------------------
 
 // Modular exponentiation O(logN)
@@ -94,47 +104,8 @@ int binarySearch(vi &nums, int target)
     // ans : last true {left} or first false{right}
 }
 
-int solve(vi v)
+int solve()
 {
-    int n = v.size();
-    int low = *min_element(all(v));
-    int high = *max_element(all(v));
-
-    // cout << low << " " << high << " ";
-
-    int num = high * low;
-
-    // cout << num << endl;
-
-    fori(i, n)
-    {
-        // cout << i << " " << num % v[i] << endl;
-        if (num % v[i])
-            return -1;
-    }
-
-    vi temp;
-    for (int i = 2; i * i <= num; i++)
-    {
-        if (num % i == 0)
-        {
-            temp.pb(i);
-            if (num / i != i)
-                temp.pb(num / i);
-        }
-    }
-
-    sort(all(temp));
-    sort(all(v));
-
-    // fori(i, n)
-    //         cout
-    //     << v[i] << " " << temp[i] << endl;
-
-    if (temp != v)
-        return -1;
-
-    return num;
 }
 
 void Vatsh()
@@ -146,7 +117,7 @@ void Vatsh()
     fori(i, n)
             cin >>
         v[i];
-    cout << solve(v) << endl;
+    cout << solve() << endl;
 }
 
 int32_t main()

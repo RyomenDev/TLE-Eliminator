@@ -1,4 +1,5 @@
 # week 1 :
+completed
 
 ### Section: C++ Basics 1
 Resources:
@@ -26,6 +27,7 @@ Resources:
     - Task 15: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/Z
 
 # week 2 :
+completed
 
 ### Section: C++ Basics 2 + Online Judge Introduction
 Resources:
@@ -47,6 +49,7 @@ Resources:
     - Task 13: https://atcoder.jp/contests/abc263/tasks/abc263_a
 
 # week 3 :
+completed
 
 ### Section: Time and Space Complexity
 Resources:
@@ -69,6 +72,7 @@ Resources:
     - Task 14: https://codeforces.com/problemset/problem/1499/B
 
 # week 4 :
+completed
 
 ### Section: Problem Solving (general)
 Resources:
@@ -107,6 +111,8 @@ Resources:
     - Task 12: https://codeforces.com/problemset/problem/1285/C
     - Task 13: https://codeforces.com/problemset/problem/550/C
 
+# week 6 :
+
 ### Section: Searching and Sorting
 Resources:
     - Lecture slides Searching and Sorting 21-05-2023: https://drive.google.com/file/d/1DEwBux8RGVaa1vXRG25WjGQ3l_lUFlvA/view
@@ -125,6 +131,8 @@ Resources:
     - Task 9: https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/B
     - Task 10: https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/C
     - Task 11: https://codeforces.com/group/c3FDl9EUi9/contest/262795/problem/D
+
+#week 7 :
 
 ### Section: C++ STL
 Resources:

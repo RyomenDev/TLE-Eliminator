@@ -1,0 +1,1 @@
+{"name":"Local: _","url":"c:\\_Vatsh\\_Blossom\\TLE\\TLE 1\\Week 6\\_.cpp","tests":[{"id":1716516837051,"input":"5\n3\n2\n1\n4\n5\n","output":"? 1\n? 2\n? 3\n? 4\n? 5\n! 3\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\_Vatsh\\_Blossom\\TLE\\TLE 1\\Week 6\\_.cpp","group":"local","local":true}
