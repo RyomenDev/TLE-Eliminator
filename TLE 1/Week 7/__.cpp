@@ -19,19 +19,23 @@ void Vatsh()
     }
 
     /*
-    Requirement for Comparability : 
-    Ordered Set (std::set): Elements in a std::set must be comparable because the set needs to order its elements. By default, std::set uses the < operator to keep elements sorted. If you try to use a type that does not support comparison (i.e., does not overload the < operator), it will result in a compilation error.
-    Unordered Set (std::unordered_set): Elements are stored in hash tables and do not need to be comparable. Instead, they need to be hashtable, which means there must be a function that computes a hash value for the elements.
+    @ Requirement for Comparability :
+    & Ordered Set (std::set): Elements in a std::set must be comparable because the set needs to order its elements. By default, std::set uses the < operator to keep elements sorted. If you try to use a type that does not support comparison (i.e., does not overload the < operator), it will result in a compilation error.
+     Unordered Set (std::unordered_set): Elements are stored in hash tables and do not need to be comparable. Instead, they need to be hashtable, which means there must be a function that computes a hash value for the elements.
     */
 
     /*
-    Implementation:
-         Ordered Set (std::set): balanced binary search tree - Red-Black Tree,
-        Unordered Set (std::unordered_set): hash table
+    @ Implementation:
+        *Ordered Set (std::set): balanced binary search tree - Red-Black Tree,
+        *Unordered Set (std::unordered_set): hash table
 
     */
     set<pair<int, int>> s; // pair are comparable - correct
-    // unordered_set<pair<int,int>>st; // Incorrect
+    // unordered_set<pair<int,int>>st; // Incorrect not hash-able
+
+    unordered_map<int, pair<int, int>> mp;
+    // unordered_map<pair<int,int>,int>mp; // Incorrect key must be hash-able
+
 }
 
 int32_t main()
