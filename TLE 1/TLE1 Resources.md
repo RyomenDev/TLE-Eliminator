@@ -2,7 +2,7 @@
 completed
 
 ### Section: C++ Basics 1
-Resources:
+- Resources:
     - Lecture slides 1.1 C++ Basics 1: https://drive.google.com/file/d/1wRiGozqal1s7YD0dH88dmS2ZNUR2Kqp1/view
     -  C++ Basics 1.1 Feedback Form: https://forms.gle/p2DtZzQuQ2xmutae8
     - Lecture Slides 1.1 Introduction to Online Judges: https://drive.google.com/file/d/1s9IQzo11vRofExgv5dkNdWcwLjoGNqnP/view
@@ -10,6 +10,7 @@ Resources:
     - Lecture Slides 1.2 Introduction to Online Judges	: https://drive.google.com/file/d/1s9IQzo11vRofExgv5dkNdWcwLjoGNqnP/view
     - Introduction to Online Judges 1.2 Feedback Form	: https://forms.gle/A3dohxG5ZjnnCcuT9
 ### Tasks:
+-
     - Task 1: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/J
     - Task 2: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/T
     - Task 3: https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/F
@@ -30,10 +31,11 @@ Resources:
 completed
 
 ### Section: C++ Basics 2 + Online Judge Introduction
-Resources:
+- Resources:
     - Lecture Slides C++ Basics 2: https://drive.google.com/file/d/1yoiTXwkI79m8gHESUwQb0YCD9fiW4BBb/view
     - Feedback Form C++ Basics 2: https://forms.gle/nBSVjRK6xUNar4kE8
 ### Tasks:
+-
     - Task 1: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/K
     - Task 2: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/H
     - Task 3: https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/C
@@ -52,10 +54,11 @@ Resources:
 completed
 
 ### Section: Time and Space Complexity
-Resources:
+- Resources:
     - Lecture slides Time Complexity 23-04-2023 TLE 1: https://drive.google.com/file/d/1CyrW0c2nB7-vaJV4X5hbzS52-9HEmP7k/view
     - Feedback Form Time Complexity 23-04-2023 TLE 1: https://forms.gle/dDbZ37HD8JWiyznb8
 ### Tasks:
+-
     - Task 1: https://codeforces.com/problemset/problem/1535/A
     - Task 2: https://codeforces.com/problemset/problem/214/A
     - Task 3: https://codeforces.com/problemset/problem/320/A
@@ -75,10 +78,11 @@ Resources:
 completed
 
 ### Section: Problem Solving (general)
-Resources:
+- Resources:
     - Feedback Form Problem Solving 1 + Strings  30-04-2023 : https://forms.gle/kQ4wf4oJwnG4Kz2bA
     - Lecture slides Problem Solving 1 + Strings 30-04-2023: https://drive.google.com/file/d/1IkzlzWHQtMTN8Zd0chvvLFl5WMDV3nQX/view
 ### Tasks:
+-
     - Task 1: https://cses.fi/problemset/task/1083
     - Task 2: https://cses.fi/problemset/task/1094
     - Task 3: https://cses.fi/problemset/task/1713
@@ -93,10 +97,11 @@ Resources:
 # week 5 :
 
 ### Section: Number Theory
-Resources:
+- Resources:
     - Feedback Form Number Theory 2 : https://forms.gle/LiCo5Ckj252M7NFU6
     - Lecture slides Number Theory 2: https://drive.google.com/file/d/1FKoGyCg2P2sTGmivYYPH790GOTWn_1ku/view
 ### Tasks:
+-
     - Task 1: https://codeforces.com/contest/1549/problem/A
     - Task 2: https://codeforces.com/problemset/problem/1475/A
     - Task 3: https://codeforces.com/problemset/problem/1165/D
@@ -114,12 +119,13 @@ Resources:
 # week 6 :
 
 ### Section: Searching and Sorting
-Resources:
+- Resources:
     - Lecture slides Searching and Sorting 21-05-2023: https://drive.google.com/file/d/1DEwBux8RGVaa1vXRG25WjGQ3l_lUFlvA/view
     - Feedback Form Searching and Sorting 21-05-2023: https://forms.gle/LtCUeh5JNbpZHxVu9
     - Feedback Form Binary Search 27-05-2023: https://forms.gle/KkjABM2xZRA5wQ94A
     - Lecture slides Binary search 27-05-2023: https://drive.google.com/file/d/1nlGLIK_LCkx9RslW26IWIfC3-HcmsrLc/view
 ### Tasks:
+-
     - Task 1: https://leetcode.com/problems/sum-of-all-odd-length-subarrays/
     - Task 2: https://leetcode.com/problems/find-pivot-index/
     - Task 3: https://leetcode.com/problems/sqrtx/
@@ -135,10 +141,11 @@ Resources:
 #week 7 :
 
 ### Section: C++ STL
-Resources:
+- Resources:
     - Lecture slides C++ STL 1 28-05-2023 `: https://drive.google.com/file/d/1N70APv9ppM-KDHKqVeWiPFscUHgCl_X8/view
     - Feedback Form C++ STL 1 28-05-2023 `: https://forms.gle/YpVdVG3px5gzWUhD8
 ### Tasks:
+-
     - Task 1: https://www.codechef.com/LRNDSA03/problems/SAVKONO
     - Task 2: https://www.codechef.com/LRNDSA03/problems/CVOTE
     - Task 3: https://www.codechef.com/LRNDSA03/problems/DPAIRS
